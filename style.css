@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #555400;
+    text-align: center;
+ 
+    
+
+  }
+  h1{
+    height: 7cm;
+    font-family: Arial;
+    color: #fffeaa;
+    text-align: center;
+    background: url(https://images.pexels.com/photos/1671325/pexels-photo-1671325.jpeg?cs=srgb&dl=forest-photography-1671325.jpg&fm=jpg) no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    opacity: 1.0;
+  }
+  h2{
+      color: #fffeaa;
+  }
+  h4{
+      color: #fffeaa;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+ 
+  .column {
+
+    float: left;
+    height: 30cm;
+    width: 50%;
+    padding: 10px;
+    background-color: #807E15;
+   
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #807E15;
+  }
+ 
